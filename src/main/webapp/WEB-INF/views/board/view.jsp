@@ -49,6 +49,6 @@
     </table>
     <br/>
     <button type="button" onclick="history.back()">뒤로 가기</button>
-    <button type="button" onclick="location.href='/editpost/${boardVO.getSeq()}'">수정하기</button>
+    <button type="button" onclick="location.href='../editpost/${boardVO.getSeq()}'">수정하기</button>
 </body>
 </html>
